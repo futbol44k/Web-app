@@ -1,0 +1,14 @@
+<p> Обзор аниме:</p>
+<iframe width="560" height="315" src={{form_data['video']}} title="Review player" fremeborder='0' allow="accelerometer; autoplay; clipboard-write; encrypted-media"></iframe>>
+
+<br>
+<p> {{form_data['anime_name'] | safe }}</p>
+<br>
+<p> Ссылка на аниме:</p>
+<a href={{form_data['anime_url']}}>link</a>
+<br>
+<p> Случайный персонаж из этого аниме:</p>
+<p> {{form_data['random_char'] | safe }}</p>
+<br>
+<img width="560" src={{form_data['char_pic']}} alt="alternatetext">
+<br>
